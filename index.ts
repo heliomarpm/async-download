@@ -53,31 +53,6 @@ q.error((err, task: Task) => {
 // q.push({ url: 'test2' });
 // q.push({ url: 'test3' });
 // q.push({ url: 'test4' });
-
 images.forEach(function (url: string) {
     q.push({ url });
 });
-function mkdirp(arg0: string, arg1: () => void) {
-    throw new Error('Function not implemented.');
-}
-
-function downloadLecture(chapterindex: any, lectureindex: any, num_lectures: any, chapter_name: any) {
-    throw new Error('Function not implemented.');
-}
-
-function chapterindex(chapterindex: any, lectureindex: any, num_lectures: any, chapter_name: any) {
-    throw new Error('Function not implemented.');
-}
-
-function lectureindex(chapterindex: any, lectureindex: any, num_lectures: any, chapter_name: any) {
-    throw new Error('Function not implemented.');
-}
-
-function num_lectures(chapterindex: any, lectureindex: any, num_lectures: any, chapter_name: any) {
-    throw new Error('Function not implemented.');
-}
-
-function chapter_name(chapterindex: any, lectureindex: any, num_lectures: any, chapter_name: any) {
-    throw new Error('Function not implemented.');
-}
-
